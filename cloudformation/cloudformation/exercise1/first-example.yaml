@@ -1,0 +1,17 @@
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t3.medium
+      ImageId: ami-0c7632fb77f35db43
+      Tags:
+        - Key: "Name"
+          Value: "test-server"
+               
+      
+  
+      
+      
+
+
+   
